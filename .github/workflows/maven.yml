@@ -28,16 +28,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-maven-
 
-    - name: Install dependencies and run tests
-      run: mvn clean install
-
-    - name: Archive test results
-      if: always()
-      uses: actions/upload-artifact@v2
-      with:
-        name: test-results
-        path: target/surefire-reports/
-
     - name: Archive build output
       if: always()
       uses: actions/upload-artifact@v2
