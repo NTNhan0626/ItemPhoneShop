@@ -43,7 +43,7 @@
 						<div class="col-md-8">
 							<div class="mb-4">
 								<h3>
-									Chào mừng đến với <strong>PhonesShop</strong>
+									 <strong>PhonesShop</strong>
 								</h3>
 
 							</div>
